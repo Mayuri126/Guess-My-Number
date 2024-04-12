@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./Black Neon Green Neon Pink Trendy Illustrative Creative Presentation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+   height: 60px;
+   width: 110px;
+   background-color: #60b347;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 550px;
+   text-decoration: none;
+    color: white;
+    font-family: "Gamja Flower", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+
+
+
+@keyframes attentionBlink {
+    0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+  }
+
+  /* Apply the animation to the button */
+  .btn {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation-name: attentionBlink;
+    animation-duration: 0.8s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-iteration-count: infinite; /* Animation iteration count */
+  }
+
+
+
+
+
+    
